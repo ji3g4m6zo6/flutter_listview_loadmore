@@ -380,10 +380,10 @@ String _buildEnglishText(LoadMoreStatus status) {
       text = "wait for loading";
       break;
     case LoadMoreStatus.loading:
-      text = "loading, wait for moment ...";
+      text = "loading...";
       break;
     case LoadMoreStatus.nomore:
-      text = "no more data";
+      text = "";
       break;
     default:
       text = "";
